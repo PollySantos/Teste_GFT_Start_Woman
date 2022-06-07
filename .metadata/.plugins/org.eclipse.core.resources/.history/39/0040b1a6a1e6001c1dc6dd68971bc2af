@@ -1,0 +1,22 @@
+package Exercicio04;
+
+import java.util.Random;
+
+public class GeraNumeroAleatorio {
+
+	public static void main(String[] args) {
+		
+        Random gerar = new Random();
+        
+        System.out.println("Digite um número de 0 à 10");
+
+        System.out.println(gerar.nextInt(10)+1);
+      
+
+        }
+        
+	}
+	
+		
+
+	

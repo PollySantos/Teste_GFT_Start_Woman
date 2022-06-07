@@ -1,0 +1,12 @@
+package Exercicio03;
+
+public class ICMS {
+
+	public class ICMS implements Imposto{
+	    @Override
+	    public double calculaImposto(double valor) {
+	       return  (valor *0.30);
+	    }
+
+	}
+}

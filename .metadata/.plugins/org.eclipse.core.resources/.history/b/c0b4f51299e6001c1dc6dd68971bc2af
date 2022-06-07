@@ -1,0 +1,20 @@
+package Exercicio02;
+
+import java.util.Scanner;
+
+
+public class RecebeNumero {
+
+	public static void main(String[] args) {
+		
+		int ler;
+		double n;
+		
+		Scanner recebe = new Scanner(System.in);
+		System.out.println("Informe o número");
+		ler = n.nextDouble();
+		
+
+	}
+
+}

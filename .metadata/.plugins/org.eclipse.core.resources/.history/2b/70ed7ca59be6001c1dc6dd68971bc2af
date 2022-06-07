@@ -1,0 +1,13 @@
+package Exercicio02;
+
+import java.util.Scanner;
+
+
+public class RecebeNumero {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

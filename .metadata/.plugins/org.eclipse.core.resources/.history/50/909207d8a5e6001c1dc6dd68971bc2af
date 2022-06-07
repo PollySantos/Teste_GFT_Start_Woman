@@ -1,0 +1,33 @@
+package Exercicio04;
+
+import java.util.Scanner;
+import java.util.Random;
+
+public class GeraNumeroAleatorio {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Digite um número entre 0 e 10: ");
+        Scanner ler = new Scanner(System.in);
+        int num = ler.nextInt();
+
+        Random random = new Random();
+
+        int numeroAleatorio = random.nextInt(10);
+        System.out.println("Digite um número de 0 à 10: " + numeroAleatorio);
+
+        if (num == numeroAleatorio) {
+
+            System.out.println("Parabéns, você acertou!");
+        } else {
+
+            System.out.println("Tente outra vez!");
+
+        }
+
+    }
+
+}
+		
+
+	
