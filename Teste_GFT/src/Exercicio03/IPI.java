@@ -8,8 +8,8 @@ public class IPI implements Imposto {
 	    public double calculaImposto(double valor) {
 	        if(valor>=25000){
 	             return  (valor*0.10);
-	        }else{
+	        } else{
 	            return(valor*0.05);
-	        }
+	         }
 	    }
-	}
+}
