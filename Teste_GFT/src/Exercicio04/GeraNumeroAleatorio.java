@@ -7,25 +7,25 @@ public class GeraNumeroAleatorio {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Digite um número entre 0 e 10: ");
+		System.out.println("Digite um nÃºmero entre 0 e 10: ");
         Scanner ler = new Scanner(System.in);
         int n = ler.nextInt();
 
         Random random = new Random();
 
         int numero = random.nextInt(10)+1;
-        System.out.println("Digite um número de 0 à 10: " + numero);
+        System.out.println("Digite um nÃºmero de 0 Ã  10: " + numero);
 
         if (n <= 10) {
 
             System.out.println("Deu boa!");
         } else {
 
-            System.out.println("Não deu boa!");
+            System.out.println("NÃ£o deu boa!");
 
-        }
+         }
 
-    }
+       }
 
 }
 		
