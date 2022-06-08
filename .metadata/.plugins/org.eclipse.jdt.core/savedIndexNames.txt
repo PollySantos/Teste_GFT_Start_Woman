@@ -1,4 +1,0 @@
-INDEX VERSION 1.131+C:\Users\zpoli\Documents\TesteGFT\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
-3345495190.index
-3274429610.index
