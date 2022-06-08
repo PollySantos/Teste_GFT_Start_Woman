@@ -26,8 +26,7 @@ public class Main {
 	                +"Chocolate R$:"+valorChocolate+"\n"
 	                +"Leite R$:"+valorLeite+"\n"
 	                +"Abacaxi R$:"+valorAbacaxi+"\n");
+      }
 
-	    }
-
-	}
+}
 
