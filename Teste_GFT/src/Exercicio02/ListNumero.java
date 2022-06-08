@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class ListNumero {
 
 	public static void main(String[] args) {
-		List<Double> numero = new ArrayList<Double>();
+	List<Double> numero = new ArrayList<Double>();
         ArrayList acimaDeCinquenta = new ArrayList<>(); 
         ArrayList acimaDeDez = new ArrayList<>(); 
         Scanner leitura = new Scanner(System.in);
@@ -44,12 +44,12 @@ public class ListNumero {
 
         media=somatorio/numero.size();
         System.out.println("Maior valor = "+ maior);
-    System.out.println("Menor valor = "+ menor);
+   	System.out.println("Menor valor = "+ menor);
         System.out.println("Media  = "+ media);
         System.out.println("Numeros acima de dez = "+ acimaDeDez);
-    System.out.println("Quantidade de numeros acima de dez = "+ acimaDeDez.size());
+    	System.out.println("Quantidade de numeros acima de dez = "+ acimaDeDez.size());
         System.out.println("Numeros acima de cinquenta = "+ acimaDeCinquenta);
-    System.out.println("Quantidade de numeros acima de cinquenta = "+ acimaDeCinquenta.size());
+    	System.out.println("Quantidade de numeros acima de cinquenta = "+ acimaDeCinquenta.size());
 
     }
 
