@@ -24,5 +24,5 @@ public class Main {
 	                +"IPI R$:"+ impostoIpi+"\n"
 	                +"COFINS R$:"+impostoCofins+"\n"
 	                +"Valor Final R$:"+total+"\n");
-	    }
+       }
 }
