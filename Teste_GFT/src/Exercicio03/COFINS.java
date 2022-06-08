@@ -13,4 +13,4 @@ public class COFINS implements Imposto {
 
 	    }
 
-	}
+}
